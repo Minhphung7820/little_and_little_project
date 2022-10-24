@@ -1,0 +1,1671 @@
+html {
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* body {
+    border-radius: 32px;
+    overflow: hidden;
+} */
+
+.wrap-content {
+    width: 1540px;
+    height: 820px;
+    background-image: linear-gradient(#fe8f1b, #ffaa3f, #fe8f1b);
+    position: relative;
+}
+
+.content {
+    width: 1460px;
+    height: 790px;
+    padding: 0;
+    margin-left: 35px;
+    margin-bottom: 50px;
+}
+
+.content .bg-wrap-content {
+    width: 1460px;
+    height: 790px;
+}
+
+.wrap-header .image-nav {
+    width: 1540px;
+    height: 130px;
+    position: absolute;
+    z-index: 20;
+}
+
+.box-wrap-menu {
+    position: absolute;
+    left: 30%;
+    padding: 0;
+    margin: 0;
+    top: 10px;
+    z-index: 21;
+}
+
+.box-wrap-menu>ul {
+    list-style-type: none;
+}
+
+.box-wrap-menu>ul>li {
+    display: inline-block;
+    margin-left: 50px;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    padding-top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.active-menu {
+    border-radius: 20px;
+    border: 2px solid #FFFFFF;
+}
+
+.logo-web {
+    position: absolute;
+    top: -5px;
+    left: 10%;
+    width: 180px;
+    height: 80px;
+    z-index: 21;
+}
+
+.box-hotline {
+    position: absolute;
+    right: 15%;
+    top: 10px;
+    z-index: 21;
+}
+
+.box-hotline>svg {
+    float: left;
+}
+
+.box-hotline>.h6 {
+    margin-top: 5px;
+    margin-left: 8px;
+    float: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.logo-ds {
+    top: 17%;
+    left: 10%;
+    position: absolute;
+    width: 126px;
+    height: 100px;
+}
+
+@font-face {
+    font-family: title;
+    src: url('../font/iCiel Koni Black.otf');
+}
+
+.title-ds-park {
+    position: absolute;
+    font-family: title;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 55px;
+    top: 17%;
+    left: 19%;
+    color: #FFFFFF;
+}
+
+
+/*  */
+
+.bg-content-1 {
+    position: absolute;
+    width: 750px;
+    height: 420px;
+    top: 36%;
+    left: 10%;
+    z-index: 10;
+}
+
+.border-box-1 {
+    position: absolute;
+    width: 732px;
+    height: 401px;
+    top: 37.2%;
+    left: 10.5%;
+    z-index: 12;
+}
+
+.bg-content-2 {
+    position: absolute;
+    width: 729px;
+    height: 396px;
+    top: 37.5%;
+    left: 10.5%;
+    z-index: 11;
+}
+
+.border-box-2 {
+    position: absolute;
+    width: 100px;
+    height: 415.5px;
+    top: 36.5%;
+    left: 56.8%;
+    z-index: 11;
+}
+
+.bg-content-3 {
+    position: absolute;
+    width: 750px;
+    height: 396px;
+    top: 40%;
+    left: 10%;
+    z-index: 9;
+}
+
+.bg-small-content-3 {
+    position: absolute;
+    width: 430px;
+    height: 396px;
+    top: 40%;
+    right: 12%;
+    z-index: 9;
+}
+
+.box-text-1 {
+    position: absolute;
+    width: 250px;
+    height: 90px;
+    top: 32.8%;
+    right: 17.5%;
+    z-index: 13;
+}
+
+.border-text-1 {
+    position: absolute;
+    width: 190px;
+    height: 50px;
+    top: 35.1%;
+    right: 19.4%;
+    z-index: 14;
+}
+
+.text-title-1 {
+    position: absolute;
+    top: 35.9%;
+    right: 21.4%;
+    z-index: 14;
+    font-family: title;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 41px;
+    /* W */
+    color: #FFFFFF;
+}
+
+.icon-hab-1 {
+    position: absolute;
+    width: 105px;
+    height: 150px;
+    top: 30%;
+    left: 1%;
+    z-index: 13;
+}
+
+.icon-lisa-1 {
+    position: absolute;
+    width: 240px;
+    height: 360px;
+    top: 50%;
+    left: 0;
+    z-index: 15;
+}
+
+.bg-small-content-1 {
+    position: absolute;
+    width: 430px;
+    height: 420px;
+    top: 36%;
+    left: 60.1%;
+    z-index: 12;
+}
+
+.icon-hab-2 {
+    position: absolute;
+    z-index: 5;
+    top: 21.1%;
+    left: 42%;
+    width: 100px;
+    height: 140px;
+}
+
+.icon-hab-3 {
+    margin-top: -1300px;
+    width: 100px;
+    height: 140px;
+    margin-left: 790px;
+}
+
+.icon-hab-4 {
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    bottom: 0;
+    left: 28%;
+    z-index: 1;
+}
+
+.icon-4-childs {
+    position: absolute;
+    width: 600px;
+    height: 330px;
+    top: 5.3%;
+    left: 54%;
+    z-index: 1;
+}
+
+.icon-hab-5 {
+    position: absolute;
+    width: 115px;
+    height: 200px;
+    top: 38%;
+    right: 0;
+    z-index: 1;
+}
+
+.icon-hab-6 {
+    position: absolute;
+    width: 130px;
+    height: 180px;
+    top: 74.5%;
+    right: 5%;
+    z-index: 1;
+}
+
+.bg-small-content-2 {
+    position: absolute;
+    width: 410px;
+    height: 400px;
+    top: 37.2%;
+    left: 60.8%;
+    z-index: 12;
+}
+
+.border-box-small-1 {
+    position: absolute;
+    width: 410px;
+    height: 400px;
+    top: 37.2%;
+    left: 60.8%;
+    z-index: 13;
+}
+
+
+/* form */
+
+.form-add-ticket {
+    position: absolute;
+    width: 260px;
+    height: 300px;
+    z-index: 14;
+    top: 43%;
+    right: 21%;
+}
+
+.form-add-ticket input[id="input-type-ticket"] {
+    width: 325px;
+    background: #FFFFFF;
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 14px;
+    border: none;
+    outline: none;
+    height: 42px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+
+
+/* .form-add-ticket .text-icon-ip {
+    position: absolute;
+    z-index: 14;
+    top: -3%;
+    right: -30%;
+} */
+
+.form-add-ticket input[id="qty-ticket"] {
+    width: 127px;
+    background: #FFFFFF;
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 14px;
+    border: none;
+    outline: none;
+    height: 42px;
+    padding-left: 10px;
+    margin-top: 12px;
+    margin-left: -5px;
+}
+
+.form-add-ticket input[id="date-use"] {
+    width: 180px;
+    position: absolute;
+    background: #FFFFFF;
+    /* inner shadow */
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 14px;
+    border: none;
+    outline: none;
+    height: 42px;
+    padding-left: 10px;
+    right: -23.4%;
+    top: 21.5%;
+    z-index: 19;
+}
+
+.form-add-ticket input[id="name-user-order-ticket"],
+input[id="phone-user-order-ticket"],
+input[id="email-user-order-ticket"] {
+    width: 379px;
+    /* position: relative; */
+    background: #FFFFFF;
+    /* inner shadow */
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 14px;
+    border: none;
+    outline: none;
+    height: 42px;
+    padding-left: 10px;
+    margin-top: 12px;
+    margin-left: -5px;
+}
+
+
+/* .form-add-ticket .text-icon-ip-2 {
+    position: absolute;
+    z-index: 14;
+    top: 17.5%;
+    right: -30.2%;
+} */
+
+.form-add-ticket button[class="btn-chooser-service"] {
+    background: none;
+    color: white;
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 75px;
+    margin-left: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: absolute;
+    right: 25%;
+    top: -2.6%;
+    right: -53.9%;
+}
+
+.form-add-ticket button[class="btn-chooser-calendar"] {
+    background: none;
+    color: white;
+    border: none;
+    outline: none;
+    width: 85px;
+    height: 65px;
+    margin-left: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: absolute;
+    right: -52.4%;
+    z-index: 18;
+}
+
+.btn-add-ticket {
+    margin-top: -8px;
+    background: none;
+    border: none;
+    outline: none;
+    width: 320px;
+    height: 65px;
+    margin-left: -22px;
+    position: absolute;
+    top: 96%;
+    right: -34%;
+}
+
+
+/* end form */
+
+.content-text-box {
+    position: absolute;
+    z-index: 12;
+    width: 700px;
+    height: 280px;
+    top: 40%;
+    left: 12%;
+    padding: 0px 30px 20px 30px;
+}
+
+.content-text-box ul {
+    padding-left: 50px;
+    list-style-type: none;
+}
+
+.content-text-box ul li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    /* Text */
+    color: #23221F;
+}
+
+.content-text-box ul li img {
+    width: 25px;
+    height: 28px;
+}
+
+.content-text-box .content-text-line-1 {
+    /* 20 medium */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    /* or 150% */
+    /* Text */
+    color: #23221F;
+    opacity: 0.7;
+}
+
+.icon-happy-left {
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    z-index: 19;
+    width: 400px;
+}
+
+.icon-happy-right {
+    position: absolute;
+    top: 4%;
+    right: 0px;
+    z-index: 19;
+    width: 400px;
+}
+
+.text-title-event {
+    position: absolute;
+    top: 17%;
+    right: 33%;
+    z-index: 19;
+    /* Header */
+    font-family: title;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 100px;
+    /* identical to box height, or 104% */
+    color: #FFFFFF;
+}
+
+.wrap-slider-element-event {
+    position: absolute;
+    top: 32%;
+    right: 11%;
+    z-index: 19;
+    width: 1220px;
+    height: 350px;
+}
+
+#btn-prev-slider-event {
+    border: none;
+    position: absolute;
+    z-index: 19;
+    background: none;
+    outline: none;
+    width: 90px;
+    height: 80px;
+    top: 50%;
+    left: 4.5%;
+}
+
+#btn-next-slider-event {
+    right: 5%;
+    border: none;
+    position: absolute;
+    z-index: 19;
+    background: none;
+    outline: none;
+    width: 90px;
+    height: 80px;
+    top: 50%;
+    right: 5%;
+}
+
+.box-slider-each-element-event>.card {
+    border-radius: 20px;
+    overflow: hidden;
+    border: none;
+}
+
+.box-slider-each-element-event>.card .card-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    line-height: 37px;
+    /* Text */
+    color: #23221F;
+    padding: 0;
+    margin: 0;
+}
+
+.box-slider-each-element-event>.card .card-text {
+    /* 18 medium */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    /* identical to box height, or 144% */
+    display: flex;
+    align-items: center;
+    color: #6C7272;
+    padding: 0;
+    margin: 0;
+    line-height: 26px;
+}
+
+.box-slider-each-element-event>.card .card-title-2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #FA7D09;
+    padding: 0;
+    margin: 0;
+}
+
+.box-slider-each-element-event>.card>.card-body>button {
+    background: none;
+    outline: none;
+    border: none;
+    width: 200px;
+    margin-left: -8px;
+    margin-top: 5px;
+}
+
+.bg-box-detail-event {
+    width: 1200px;
+    height: 480px;
+    position: absolute;
+    z-index: 19;
+    top: 25%;
+    left: 10%;
+}
+
+.text-name-detail-event {
+    position: absolute;
+    z-index: 18;
+    top: 13%;
+    right: 40%;
+    font-family: title;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 100px;
+    /* or 156% */
+    display: flex;
+    align-items: center;
+    /* W */
+    color: #FFFFFF;
+}
+
+.wrap-content-detail-event {
+    position: absolute;
+    z-index: 19;
+    top: 27.5%;
+    left: 11.5%;
+    width: 1150px;
+    height: 430px;
+}
+
+.wrap-content-detail-event .box-content-detail-event-left {
+    float: left;
+    width: 370px;
+    height: 430px;
+    /* background-color: yellow; */
+}
+
+.wrap-content-detail-event .box-content-detail-event-right {
+    float: left;
+    width: 780px;
+    height: 430px;
+    /* background-color: orange; */
+    column-width: 50px;
+    column-count: 3;
+    padding: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    overflow: hidden;
+}
+
+.wrap-content-detail-event .box-content-detail-event-right>p>img {
+    width: 220px !important;
+    height: 160px !important;
+    border-radius: 10px;
+}
+
+.wrap-content-detail-event .box-content-detail-event-right>p::first-line {
+    color: #FA7D09;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.wrap-content-detail-event .box-content-detail-event-left>.box-image-avt-detail {
+    width: 340px;
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 40px 30px 30px 15px;
+}
+
+.wrap-content-detail-event .box-content-detail-event-left .title-date-use {
+    margin-left: 15px;
+    margin-top: -10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    display: flex;
+    align-items: center;
+    color: #444444;
+}
+
+.wrap-content-detail-event .box-content-detail-event-left .title-location {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    display: flex;
+    align-items: center;
+    color: #6C7272;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.wrap-content-detail-event .box-content-detail-event-left .title-price-event {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #FA7D09;
+    margin-left: 15px;
+}
+
+.box-left-contact {
+    position: absolute;
+    z-index: 18;
+    left: 14%;
+    top: 28%;
+    width: 800px;
+    height: 460px;
+}
+
+.box-small-right-contact-1 {
+    position: absolute;
+    z-index: 18;
+    right: 7%;
+    top: 28%;
+    width: 390px;
+    height: 140px;
+}
+
+.box-small-right-contact-2 {
+    position: absolute;
+    z-index: 18;
+    right: 7%;
+    top: 47.5%;
+    width: 390px;
+    height: 140px;
+}
+
+.box-small-right-contact-3 {
+    position: absolute;
+    z-index: 18;
+    right: 7%;
+    top: 67%;
+    width: 390px;
+    height: 140px;
+}
+
+
+/* Address Contact */
+
+.box-address-contact {
+    /* background-color: red; */
+    position: absolute;
+    z-index: 19;
+    top: 30%;
+    right: 8.5%;
+    width: 340px;
+    height: 100px;
+}
+
+.box-address-contact .box-left-address-contact {
+    height: 100px;
+    width: 18%;
+    float: left;
+    padding-left: 10px;
+}
+
+.box-address-contact .box-left-address-contact img {
+    width: 50px;
+    height: 50px;
+    margin-top: 18px;
+}
+
+.box-address-contact .box-right-address-contact {
+    height: 100px;
+    width: 82%;
+    float: left;
+    padding: 10px 0px 10px 15px;
+}
+
+.box-address-contact .box-right-address-contact .title-address-contact {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #12265A;
+}
+
+.box-address-contact .box-right-address-contact .location-address-contact {
+    /* 18 medium */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 26px;
+    /* Text */
+    color: #23221F;
+    opacity: 0.7;
+}
+
+
+/* End Address contact */
+
+
+/* Email Contact */
+
+.box-email-contact {
+    /* background-color: red; */
+    position: absolute;
+    z-index: 19;
+    top: 49.5%;
+    right: 8.5%;
+    width: 340px;
+    height: 100px;
+}
+
+.box-email-contact .box-left-email-contact {
+    height: 100px;
+    width: 18%;
+    float: left;
+    padding-left: 10px;
+}
+
+.box-email-contact .box-left-email-contact img {
+    width: 50px;
+    height: 50px;
+    margin-top: 18px;
+}
+
+.box-email-contact .box-right-email-contact {
+    height: 100px;
+    width: 82%;
+    float: left;
+    padding: 20px 0px 10px 15px;
+}
+
+.box-email-contact .box-right-email-contact .title-email-contact {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #12265A;
+}
+
+.box-email-contact .box-right-email-contact .address-email-contact {
+    /* 18 medium */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 26px;
+    /* Text */
+    color: #23221F;
+    opacity: 0.7;
+}
+
+
+/* End Email Contact */
+
+
+/* Phone Contact */
+
+.box-phone-contact {
+    /* background-color: red; */
+    position: absolute;
+    z-index: 19;
+    top: 69%;
+    right: 8.5%;
+    width: 340px;
+    height: 100px;
+}
+
+.box-phone-contact .box-left-phone-contact {
+    height: 100px;
+    width: 18%;
+    float: left;
+    padding-left: 10px;
+}
+
+.box-phone-contact .box-left-phone-contact img {
+    width: 50px;
+    height: 50px;
+    margin-top: 18px;
+}
+
+.box-phone-contact .box-right-phone-contact {
+    height: 100px;
+    width: 82%;
+    float: left;
+    padding: 20px 0px 10px 15px;
+    /* background-color: red; */
+}
+
+.box-phone-contact .box-right-phone-contact .title-phone-contact {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #12265A;
+}
+
+.box-phone-contact .box-right-phone-contact .number-phone-contact {
+    /* 18 medium */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 26px;
+    /* Text */
+    color: #23221F;
+    opacity: 0.7;
+}
+
+
+/* End Phone Contact */
+
+
+/*  */
+
+.title-pagr-contact {
+    position: absolute;
+    z-index: 19;
+    top: 15%;
+    right: 43%;
+    font-family: title;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 100px;
+    /* identical to box height, or 104% */
+    color: #FFFFFF;
+}
+
+
+/*  */
+
+
+/*  */
+
+.wrap-form-contact {
+    position: absolute;
+    z-index: 19;
+    left: 15.5%;
+    top: 30%;
+    width: 755px;
+    height: 415px;
+    /* background-color: red; */
+}
+
+.div-content-contact-form {
+    width: 100%;
+    height: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 20px 20px 0px 20px;
+    /* or 150% */
+    /* Text */
+    color: #23221F;
+    opacity: 0.7;
+}
+
+#form-contact-us {
+    width: 100%;
+    height: 315px;
+    padding: 0px 20px 10px 20px;
+    /* background-color: yellow; */
+}
+
+.row-input-contact {
+    margin-bottom: 20px;
+}
+
+#form-contact-us .row-input-contact input[id="nameContact"],
+input[id="phoneContact"] {
+    background: #FFFFFF;
+    /* inner shadow */
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    width: 250px;
+    flex-grow: 0;
+    border: none;
+    outline: none;
+    height: 40px;
+    padding-left: 10px;
+}
+
+#form-contact-us .row-input-contact input[id="emailContact"],
+input[id="addressContact"] {
+    background: #FFFFFF;
+    /* inner shadow */
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    width: 445px;
+    flex-grow: 0;
+    border: none;
+    outline: none;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 15px;
+}
+
+#form-contact-us textarea {
+    background: #FFFFFF;
+    /* inner shadow */
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    width: 100%;
+    flex-grow: 0;
+    border: none;
+    outline: none;
+    height: 110px;
+    padding-left: 10px;
+    resize: none;
+    padding-top: 5px;
+}
+
+#form-contact-us button {
+    background: none;
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 65px;
+    margin-top: 13px;
+    margin-left: 220px;
+}
+
+.icon-alex {
+    position: absolute;
+    z-index: 19;
+    left: 0;
+    width: 248px;
+    height: 450px;
+    top: 32%;
+}
+
+
+/*  */
+
+
+/*  */
+
+.box-left-pay-page {
+    position: absolute;
+    z-index: 19;
+    top: 28%;
+    left: 9%;
+    width: 815px;
+    height: 460px;
+}
+
+.box-right-pay-page {
+    position: absolute;
+    z-index: 19;
+    top: 28%;
+    right: 10%;
+    width: 407px;
+    height: 460px;
+}
+
+.title-page-pay {
+    position: absolute;
+    z-index: 19;
+    top: 15%;
+    right: 37%;
+    font-family: title;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 100px;
+    /* identical to box height, or 104% */
+    color: #FFFFFF;
+}
+
+.border-center-box-page-pay {
+    position: absolute;
+    z-index: 19;
+    top: 28%;
+    right: 33%;
+    width: 110px;
+    height: 449px;
+}
+
+.icon-trini-1 {
+    position: absolute;
+    z-index: 20;
+    left: 0;
+    width: 215px;
+    height: 420px;
+    top: 32%;
+}
+
+.title-ticket-family {
+    position: absolute;
+    z-index: 20;
+    left: 16%;
+    width: 320px;
+    height: 72px;
+    top: 26%;
+}
+
+#form-checkout-ticket {
+    width: 775px;
+    height: 415px;
+    position: absolute;
+    z-index: 19;
+    top: 30%;
+    left: 10.2%;
+    /* background-color: yellow; */
+    padding-left: 95px;
+    padding-top: 40px;
+    padding-right: 80px;
+}
+
+#form-checkout-ticket .row-input-checkout-1 {
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+#form-checkout-ticket .row-input-checkout-1 .row-element-input-checkout-1,
+.row-element-input-checkout-2,
+.row-element-input-checkout-3 {
+    float: left;
+}
+
+#form-checkout-ticket .row-input-checkout-1 .row-element-input-checkout-2 {
+    /* background-color: red; */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#form-checkout-ticket .row-input-checkout-1 .row-element-input-checkout-1 input {
+    width: 200px;
+    height: 40px;
+    /* W */
+    background: #FFFFFF;
+    /* inner shadow */
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    /*  */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    /* Text */
+    color: #23221F;
+}
+
+#form-checkout-ticket .row-input-checkout-1 .row-element-input-checkout-2 input {
+    width: 76px;
+    height: 40px;
+    /* W */
+    background: #FFFFFF;
+    /* inner shadow */
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    /*  */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    /* Text */
+    color: #23221F;
+}
+
+#form-checkout-ticket .row-input-checkout-1 .row-element-input-checkout-3 input {
+    width: 200px;
+    height: 40px;
+    /* W */
+    background: #FFFFFF;
+    /* inner shadow */
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    /*  */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    /* Text */
+    color: #23221F;
+}
+
+#form-checkout-ticket label>span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 32px;
+    /* identical to box height, or 150% */
+    /* Text */
+    color: #23221F;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#form-checkout-ticket .row-input-checkout-1 .row-input-checkout {
+    padding-top: 8px;
+}
+
+#form-checkout-ticket .row-input-checkout-1 .row-input-checkout input {
+    /* Frame 10 */
+    width: 326px;
+    height: 40px;
+    /* W */
+    background: #FFFFFF;
+    /* inner shadow */
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    /*  */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    /* Text */
+    color: #23221F;
+}
+
+#form-checkout-ticket .row-input-checkout-1 .row-input-checkout input[id="phone-checkout"] {
+    width: 200px;
+}
+
+.box-form-info-checkout {
+    position: absolute;
+    z-index: 19;
+    width: 380px;
+    height: 365px;
+    /* background-color: red; */
+    right: -57%;
+    top: 10%;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.title-info-pay {
+    position: absolute;
+    z-index: 20;
+    top: 26%;
+    right: 12.7%;
+    width: 320px;
+    height: 72px;
+}
+
+#form-checkout-ticket .row-input-checkout {
+    padding-top: 8px;
+}
+
+#form-checkout-ticket .row-input-checkout:first-child {
+    padding-top: 0px;
+}
+
+#form-checkout-ticket .row-input-checkout input {
+    width: 100%;
+    height: 40px;
+    /* W */
+    background: #FFFFFF;
+    /* inner shadow */
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.box-form-info-checkout .row-input-checkout .box-element-input-checkout-left {
+    /* background-color: yellow; */
+    float: left;
+    width: 85%;
+    height: 78px;
+}
+
+.box-form-info-checkout .row-input-checkout .box-element-input-checkout-right {
+    float: left;
+    width: 15%;
+    height: 78px;
+    padding-top: 22px;
+    /* background-color: yellowgreen; */
+}
+
+.box-form-info-checkout .row-input-checkout .box-element-input-checkout-right img {
+    width: 68px;
+    height: 61px !important;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+#form-checkout-ticket button {
+    border: none;
+    outline: none;
+    background: none;
+    position: absolute;
+    z-index: 19;
+    top: 87%;
+    right: -51%;
+    width: 280px;
+}
+
+#form-checkout-ticket input[id="cvc-cvv-card"] {
+    width: 90px;
+}
+
+
+/* input[id="input-choose-date-add-ticket"] {
+    display: none;
+} */
+
+
+/* input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+} */
+
+.wrap-send-mail-contact-success {
+    display: none;
+}
+
+.all-send-mail-contact-success {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: #000000;
+    opacity: 0.7;
+    top: 0;
+    right: 0;
+}
+
+.box-send-mail-contact-success {
+    width: 350px;
+    height: 150px;
+    background: #E5E5E5;
+    position: absolute;
+    z-index: 101;
+    top: 30%;
+    right: 39%;
+    border: none;
+    padding: 30px;
+    border-radius: 20px;
+    /*  */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    /* or 150% */
+    /* Text */
+    color: #23221F;
+}
+
+.btn-close-success-mail {
+    position: absolute;
+    z-index: 102;
+    top: 32%;
+    right: 40%;
+    cursor: pointer;
+}
+
+.all-loading-send-mail {
+    position: absolute;
+    z-index: 26;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    opacity: 0.7;
+}
+
+.icon-loading-send-mail {
+    position: absolute;
+    z-index: 27;
+    top: 32%;
+    right: 43%;
+    border-radius: 50px;
+}
+
+.wrap-loading-send-mail {
+    display: none;
+}
+
+.wrap-icon-error-checkout {
+    display: none;
+}
+
+.all-icon-checkout-error {
+    position: absolute;
+    z-index: 26;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.7;
+    top: 0;
+    right: 0;
+}
+
+.icon-checkout-error {
+    position: absolute;
+    z-index: 27;
+    top: 23%;
+    right: 37%;
+    width: 400px;
+}
+
+
+/*  */
+
+
+/*  */
+
+.box-content-checkout-success {
+    position: absolute;
+    z-index: 19;
+    top: 28%;
+    height: 460px;
+    left: 13%;
+    width: 1220px;
+}
+
+.title-page-checkout-success {
+    position: absolute;
+    z-index: 19;
+    top: 15%;
+    right: 25%;
+    font-family: title;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 100px;
+    /* identical to box height, or 104% */
+    color: #FFFFFF;
+}
+
+.icon-alvin-1 {
+    position: absolute;
+    z-index: 22;
+    left: 0;
+    width: 250px;
+    top: 30%;
+}
+
+.wrap-box-slide-ticket-checkout-success {
+    position: absolute;
+    z-index: 21;
+    width: 1050px;
+    height: 370px;
+    top: 30%;
+    /* background-color: red; */
+    padding-top: 15px;
+    left: 19.2%;
+}
+
+button[id="btn-prev-slide-ticket-sucess"] {
+    position: absolute;
+    top: 50%;
+    z-index: 23;
+    background: none;
+    border: none;
+    outline: none;
+    width: 90px;
+    left: 13.4%;
+}
+
+button[id="btn-next-slide-ticket-sucess"] {
+    position: absolute;
+    top: 50%;
+    z-index: 23;
+    background: none;
+    border: none;
+    outline: none;
+    width: 90px;
+    right: 8%;
+}
+
+.elment-slide-ticket-checkout-success {
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+    border-radius: 8px;
+    height: 345px;
+    border: none !important;
+    text-align: center;
+}
+
+.box-code-qr {
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.elment-slide-ticket-checkout-success h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 39px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.elment-slide-ticket-checkout-success h6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    /* Yellow / 1 */
+    color: #FFC226 !important;
+}
+
+.elment-slide-ticket-checkout-success p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    /* Text */
+    color: #23221F;
+}
+
+.total-count-ticket {
+    position: absolute;
+    z-index: 25;
+    top: 77%;
+    left: 18.7%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    /* Text */
+    color: #23221F;
+}
+
+.number-page-ticket {
+    position: absolute;
+    z-index: 25;
+    top: 77%;
+    right: 13.5%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    /* line-height: 26px; */
+    /* identical to box height, or 144% */
+    /* Text */
+    color: #23221F;
+    opacity: 0.5;
+}
+
+button[id="btn-dowload-ticket"] {
+    position: absolute;
+    z-index: 20;
+    background: none;
+    border: none;
+    outline: none;
+    top: 86.5%;
+    width: 170px;
+    left: 38%;
+}
+
+button[id="btn-send-mail-ticket"] {
+    position: absolute;
+    z-index: 20;
+    background: none;
+    border: none;
+    outline: none;
+    top: 86.5%;
+    width: 170px;
+    left: 50%;
+}
+
+
+/*  */

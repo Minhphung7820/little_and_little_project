@@ -5,7 +5,7 @@ use App\Http\Controllers\EventController;
 use App\Http\Controllers\IndexController;
 use Illuminate\Support\Facades\Route;
 
-
+// fthht
 
 Route::get('/', [IndexController::class, "index"]);
 Route::prefix('su-kien')->name('su-kien.')->group(function () {
